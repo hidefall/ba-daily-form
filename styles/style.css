@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    
+}
+html,
+body {
+    min-height: 100%;
+}
+body {
+    background-image: linear-gradient(29deg, #ff512f 0%, #dd2476 100%);
+    font-family: Arial, sans-serif;
+}
+.ba-container {
+    max-width: 460px;
+    min-width: 200px;
+    min-height: 470px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 65px auto;
+}
+.ba-header {
+    max-width: 395px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-top: 27px;
+}
+.ba-logo {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+}
+.ba-header__title {
+    max-width: 320px;
+    min-width: 160px;
+    color: #1b1c1d;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+.ba-header__main-text {
+    max-width: 395px;
+    min-width: 200px;
+    color: #7a7b7f;
+    font-size: 13px;
+    color: #7a7b7f;
+    font-weight: 400;
+    line-height: 14px;
+}
+.ba-login-link,
+.ba-terms-link,
+.ba-privacy-link {
+    color: #e12a6c;
+    text-decoration: none;
+}
+.ba-form {
+    max-width: 400px;
+    min-width: 150px;
+    margin: 0 auto;
+}
+.ba-input-first-name,
+.ba-input-last-name,
+.ba-input-email,
+.ba-input-password{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: none;
+    color: #7a7b7f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 15px;
+    padding-left: 14px;
+}
+.ba-input-first-name,
+.ba-input-last-name{
+    
+    width: 197.5px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: none;
+    color: #7a7b7f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 15px;
+    padding-left: 14px;
+}
+.ba-form-button {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 3px 0 #bd1962;
+    border-radius: 4px;
+    background-color: #ea355a;
+    border: none;
+    margin-bottom: 27px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.ba-footer {
+    max-width: 395px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-bottom: 61px;
+}
+.ba-footer-text{
+    max-width: 384px;
+    min-width: 180px;
+    height: 31px;
+    font-size: 12px;
+}
